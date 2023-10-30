@@ -1,46 +1,61 @@
-# Getting Started with Create React App and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Review
 
-## Available Scripts
+The App helps you view specific content that registered users have submitted to [Reddit](https://www.reddit.com/).
 
-In the project directory, you can run:
+My Reddit App is a CodeCademy adaptive application that makes it possible to use it comfortably on mobile devices, as well as on large monitors and tablets
 
-### `npm start`
+My Reddit App allows:
+- *view links, text messages, images and videos (although without sound due to API limitations)*
+- *viewing the number of votes received by each publication*
+- *view comments for each publication*
+- *use the site's search engine to find the content you need*
+- *follow the link to the original* [Reddit](https://www.reddit.com/)
+- *sort the posts according to your preferences by 10 subreddits*
+- *sort the posts according to your preferences by  the popularity of the post or the time of publication, as well as 
+  view the posts that are gaining popularity*
+- *see who published the post and when*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - React : *Interface library*
+ - Redux : *Global state management*
+ - Jest & React Testing Library (RTL): *Testing suite*
 
-### `npm test`
+The main codebase consists of Javascript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Clone or download the repo.
+Open the directory and run npm to install.
+Run development application by using npm start.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Using
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The *"public"* folder contains an *"img"* folder with all the icons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The *"test"* folder contains tests for the main components.
 
-### `npm run eject`
+The *"features"* folder contains the main components and slices: HeaderBar, Subreddits, Posts and Comments.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The *"header"* folder contains components and slice that are responsible for displaying the top part of the site:
+- logo
+- and input for data search
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The *"subcredits"* folder contains the slideshow components that display the navigation bar on the left, which consists of 
+three parts:
+- buttons for sorting posts
+- list of subreddits
+- a button to go to the top of the window
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The *"post"* folder contains components and a slice for displaying the main content of the post and media.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The *"comment"* folder contains a component and a Slice for displaying a specific post and comments.
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project utilizes the Reddit JSON API to retrieve data from Reddit.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+*The project was a task assigned by Codecademy as part of their full-stack engineer course path. The objective of 
+the project was to demonstrate all the skills and technologies learned up to this point on the path, including 
+HTML/CSS, JavaScript, React, Redux, Jest and RTL, Git and GitHub Projects, and command-line proficiency*.
