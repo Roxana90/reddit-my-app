@@ -1,6 +1,5 @@
 
 .post-container {
-    /*background-color: #5ac7f3;*/
     max-width: 100%;
 }
 /*-----------------------------------------------------*/
@@ -8,16 +7,12 @@
     background-color: white;
     max-width: 100%;
     border: 1px solid rgba(127, 122, 90, 0.36);
-    /*display: grid;*/
-    /*grid-template-columns: 100px 200px auto ;*/
     display: flex;
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 
-    /*max-width: 800px;*/
-    /*overflow: hidden;*/
-
+   
 }
 
 /*-------------------------------------------*/
@@ -25,7 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #e3eae5;
+    background-color: #D8BFD8;
     margin: 5px;
     font-size: 12px;
     flex: 0 0 35px;
@@ -50,7 +45,6 @@
 .media {
     display: flex;
     flex: 0 0 200px;
-    /*justify-content: flex-start;*/
     margin: 5px 0;
     align-items: center;
     border-radius: 10px;
@@ -71,19 +65,10 @@
 .media-img-container img{
     width: 100%;
     display: flex;
-    /*justify-content: center;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
-/*.post-img img{*/
-/*  max-width: 100%;*/
-/*}*/
-/*.post-no-img{*/
-/*  max-width: 50%;*/
 
-/*}*/
 .media-no-img{
-    /*width: 100%;*/
+    
     max-width: 75%;
     opacity: 0.1;
     margin: 0 auto;
@@ -94,16 +79,13 @@
 .post-information-container {
     width: 100%;
     display: flex;
-    /*width: 100%;*/
     flex-direction: column;
-    background-color: #e1e8e3;
-    /*// перевірити*/
+    background-color: #D8BFD8;
     justify-content: space-between;
     padding: 3px;
     margin: 5px;
     border-radius: 10px;
-    /*height: 100%;*/
-    /*flex: 0 0 auto;*/
+   
 }
 .posted-by {
     max-width: 100%;
@@ -116,18 +98,10 @@
     margin: 0 5px;
 }
 .post-information-self {
-    /*background-color: #08729d;*/
     max-height: 250px;
     max-width: 550px;
     overflow: hidden;
     margin: 0 auto;
-
-    /*height: 50%;*/
-    /*display: flex;*/
-    /*flex: 0 0 100px;*/
-    /*max-height: 250px;*/
-    /*!*height: 30%;*!*/
-    /*!*overflow: hidden;*!*/
 }
 
 .post-comments {

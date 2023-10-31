@@ -4,10 +4,10 @@
     max-width: 170px;
     display: flex;
     color:  #554B07;
-    background-color: #e3eae5;
+    background-color: #D8BFD8;
     border: 1px solid rgba(128, 123, 91, 0.39);
     font-family: 'Caveat', cursive;
-    /* position: relative; */
+   
 }
 /*-----------------------------*/
 .button-subreddit {
@@ -28,18 +28,15 @@
     margin-right: 0.7rem;
 }
 /*---------------------------------------*/
-/* body .subreddits-container {
-  display: none;
-} */
+
 .subreddit-title {
     text-align: center;
     display: none;
-    /* border-bottom: #807b5b; */
     font-family: 'Caveat', cursive;
     font-size: 2rem;
 }
 .subreddit-title:hover {
-    color: #08729d;
+    color: #800080;
 }
 
 
@@ -48,16 +45,11 @@
 .subreddit-list {
     display: flex;
     flex-direction: column;
-    /*align-items: center  ;*/
-    /*тут я зроби змыни!!!!!!!!!!!!!!!!!!!!!!!!!*/
-    /*border-top: 200px #444444;*/
     margin: 0 5px 10px;
     border-top: 1px solid rgba(128, 123, 91, 0.39);
-    /*margin-bottom: 10px;*/
 }
 
 .subreddit-list-element {
-    /* margin-top: 10px; */
     padding: 5px;
     display: flex;
     flex-direction: column;

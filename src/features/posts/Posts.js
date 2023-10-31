@@ -29,10 +29,10 @@ export default function Posts() {
         // window.scrollTo(0, 0)
         try {
             scroll.scrollToTop({
-                duration: 50, // Тривалість анімації в мілісекундах
+                duration: 50, 
             });
         } catch (error) {
-            // Обробка помилки: ігнорування в середовищі тестування
+            
             console.error("An error occurred during the call window.scrollTo:", error);
         }
         if (searchTerm) {
